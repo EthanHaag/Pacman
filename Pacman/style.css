@@ -1,0 +1,122 @@
+body{
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.row{
+    line-height: 0px;
+}
+.row div{
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+}
+.brick{
+    background-color: blue;
+}
+.coin{
+    background: url("coin.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pacman{
+    background: url("Pacman.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: absolute;
+}
+.empty{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+#score{
+    border: solid 2px white;
+    text-align: center;
+    display: inline-flex;
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    top: 610px;
+    left: 250px;
+}
+#lives{
+    border: solid 2px white;
+    text-align: center;
+    display: inline-flex;
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    top: 610px;
+    left: 750px;
+}
+.cherry{
+    background: url("cherry.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pinky{
+    background: url("pinky.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: absolute;
+}
+#blue{
+    background: url("blue.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: absolute;
+}
+#yellow{
+    background: url("yellow.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: absolute;
+}
+#red{
+    background: url("red.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:50px;
+    height:50px;
+    position: absolute;
+}
+#end{
+    color: white;
+    font-size: 7em;
+    width: fit-content;
+    margin:auto;
+    padding: 10%;
+    display:none;
+}
+#win{
+    color: white;
+    font-size: 7em;
+    width: fit-content;
+    margin:auto;
+    padding: 10%;
+    display:none;
+}
+.button{
+    color:white;
+    background-color: royalblue;
+    font-size: 5em;
+    display:none;
+    margin: auto;
+}
